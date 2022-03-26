@@ -1,2 +1,39 @@
-# brighty
-Web Hosting Automation, Billing and Provisioning Platform for the Sane Hosts
+# Brighty - Web Hosting Automation, Billing and Provisioning Platform for the Sane Hosts
+
+We are creating a production-level integrated billing, automation and provisioning Platform for web hosters. This project aims to give you a usable and extendable platform with minimal but all required features to run a web design agency or a hosting company.
+
+Not Limited to Hosting, it can be used for any kind of automated billing and provisioning business. 
+
+# Development Stacks:
+
+- Laravel
+- MySQL
+- VueJs
+
+
+# Current Goals
+
+- User Registration | Supported: Social Media, Mobile, Email, Email Verification, SMS Verification etc.
+- User Dashboard / Client Panel
+- 
+
+Domain Name :
+  -   Automated Registration | Supported : ResellerClub or any Logicboxes
+  -   Name Server Update
+  -   Domain Contact Update
+  -   Domain Name Purchase 
+
+Hosting
+  - CWP automated Provisioning & Suspension (Auto and Manual)
+  - Hosting Package Purchase
+  
+Invoice
+  -Create Invoice
+  - Invoice Payment 
+  - Automated Invoice Generation
+
+Payment Gateways
+  - Paypal
+  - RazorPay
+  - Skrill
+  - Stripe
