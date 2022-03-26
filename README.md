@@ -4,6 +4,8 @@ We are creating a production-level integrated billing, automation and provisioni
 
 Not Limited to Hosting, it can be used for any kind of automated billing and provisioning business. 
 
+![alt text](https://github.com/tariqsocial/brighty/blob/main/Logo.png?raw=true)
+
 ## Development Stacks:
 
 - Laravel
