@@ -29,7 +29,7 @@ Not Limited to Hosting, it can be used for any kind of automated billing and pro
   - Hosting Package Purchase
   
 **Invoice**
-  -Create Invoice
+  - Create Invoice
   - Invoice Payment 
   - Automated Invoice Generation
 
