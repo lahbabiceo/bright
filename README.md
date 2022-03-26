@@ -13,9 +13,10 @@ Not Limited to Hosting, it can be used for any kind of automated billing and pro
 
 # Current Goals
 
+- Integrate a login script - allows you to create a login popup and logged-in user bar on any site by interting a few lines of js code
 - User Registration | Supported: Social Media, Mobile, Email, Email Verification, SMS Verification etc.
 - User Dashboard / Client Panel
-- 
+
 
 Domain Name :
   -   Automated Registration | Supported : ResellerClub or any Logicboxes
@@ -37,3 +38,12 @@ Payment Gateways
   - RazorPay
   - Skrill
   - Stripe
+
+# Pluggable
+
+Using WordPress Like Plugin Architecture
+
+# License
+
+MIT License
+Feel free to use it for as long as you want and any manner you want.
