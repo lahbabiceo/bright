@@ -18,7 +18,7 @@ Not Limited to Hosting, it can be used for any kind of automated billing and pro
 - User Dashboard / Client Panel
 
 
-**Domain Name :
+**Domain Name** :
   -   Automated Registration | Supported : ResellerClub or any Logicboxes
   -   Name Server Update
   -   Domain Contact Update
@@ -28,12 +28,12 @@ Not Limited to Hosting, it can be used for any kind of automated billing and pro
   - CWP automated Provisioning & Suspension (Auto and Manual)
   - Hosting Package Purchase
   
-**Invoice
+**Invoice**
   -Create Invoice
   - Invoice Payment 
   - Automated Invoice Generation
 
-**Payment Gateways
+**Payment Gateways**
   - Paypal
   - RazorPay
   - Skrill
