@@ -2,7 +2,7 @@
 
 We are creating a production-level "WHMCS Alternative" with integrated billing, automation and provisioning Platform for web hosters. This project aims to give you a usable and extendable platform with minimal but all required features to run a web design agency or a hosting company.
 
-# Every one is fed up of WHMCS! So What do we do?
+## Every one is fed up of WHMCS! So What do we do?
 
 The answer is to create something together. All current alternatives are not usable in their current state. We want to create something which we will use ourselves in production.  
 
