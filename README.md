@@ -4,7 +4,7 @@ We are creating a production-level "WHMCS Alternative" with integrated billing, 
 
 # Every one is fed up of WHMCS! So What do we do?
 
-The answer is to create something together. All current alternatives are not usable in their current state. We want to create something which we will use ourselves in production. 
+The answer is to create something together. All current alternatives are not usable in their current state. We want to create something which we will use ourselves in production.  
 
 Not Limited to Hosting, it can be used for any kind of automated billing and provisioning business. 
 
