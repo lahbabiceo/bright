@@ -2,6 +2,12 @@
 
 We are creating a production-level "WHMCS Alternative" with integrated billing, automation and provisioning Platform for web hosters. This project aims to give you a usable and extendable platform with minimal but all required features to run a web design agency or a hosting company.
 
+## We are in early development/ideation stage. 
+
+Looking for Core group. Join Our Community
+[Join Our Discord Server](https://discord.gg/dUCmJcs5xv) ![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white) 
+
+
 ## Every one is fed up of WHMCS! So What do we do?
 
 The answer is to create something together. All current alternatives are not usable in their current state. We want to create something which we will use ourselves in production.  
