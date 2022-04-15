@@ -9,7 +9,7 @@ Looking for Core group.
 ### Join Our Community
 
 
-![Github Projects](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)  Project View [https://github.com/users/tariq-abdullah/projects/1/(View Github Project View)
+![Github Projects](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)  Project View [https://github.com/users/tariq-abdullah/projects/1/views/1](View Github Project View)
 
 ![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)   [Join Our Discord Server](https://discord.gg/dUCmJcs5xv)
 
