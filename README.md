@@ -4,9 +4,15 @@ We are creating a production-level "WHMCS Alternative" with integrated billing, 
 
 ## We are in early development/ideation stage. 
 
-Looking for Core group. Join Our Community
-[Join Our Discord Server](https://discord.gg/dUCmJcs5xv) ![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white) 
+Looking for Core group. 
 
+### Join Our Community
+
+Project View: [https://github.com/users/tariq-abdullah/projects/1/](View Github Project View)
+Discord Server : [Join Our Discord Server](https://discord.gg/dUCmJcs5xv)
+Telegram Channel: [Join Telegram Group] (https://t.me/+PyUnIpTv9i42ODJl)
+
+![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white) 
 
 ## Every one is fed up of WHMCS! So What do we do?
 
