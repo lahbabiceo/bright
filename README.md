@@ -2,6 +2,8 @@
 
 We are creating a production-level "WHMCS Alternative" with integrated billing, automation and provisioning Platform for web hosters. This project aims to give you a usable and extendable platform with minimal but all required features to run a web design agency or a hosting company.
 
+[![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)](https://packagist.org/packages/phpunit/phpunit)  ![PULL REQUEST](https://img.shields.io/badge/Pull%20Request-WELCOME-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)
+
 ## Status: Not Usable. Just Started. We are in early development/ideation stage. 
 
 Looking for Core group. 
