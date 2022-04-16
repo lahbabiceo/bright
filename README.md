@@ -26,7 +26,7 @@ Not Limited to Hosting, it can be used for any kind of automated billing and pro
 
 ## Development Stacks:
 
-- Laravel
+- Codeigniter
 - MySQL
 - VueJs
 
