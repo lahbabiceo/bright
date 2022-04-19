@@ -2,7 +2,7 @@
 
 # Brighty - Web Hosting Automation, Billing and Provisioning Platform for the Sane Hosts
 
-We are creating a production-level "WHMCS Alternative" with integrated billing, automation and provisioning Platform for web hosters. This project aims to give you a usable and extendable platform with minimal but all required features to run a web design agency or a hosting company.
+:wave: Hi There! We are creating a production-level "WHMCS Alternative" with integrated billing, automation and provisioning Platform for web hosters. This project aims to give you a usable and extendable platform with minimal but all required features to run a web design agency or a hosting company.
 
 ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue). [![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)](https://packagist.org/packages/phpunit/phpunit)
 
@@ -10,7 +10,7 @@ We are creating a production-level "WHMCS Alternative" with integrated billing, 
 
 Looking for Core group. 
 
-### Join Our Community
+### :handshake: Join Our Community
 
 [Github Project View](https://github.com/users/tariq-abdullah/projects/1/views/1])  |   [Join Our Discord Server](https://discord.gg/dUCmJcs5xv)    |    [Join Telegram Group](https://t.me/+PyUnIpTv9i42ODJl)
 
@@ -21,6 +21,11 @@ Looking for Core group.
 The answer is to create something together. All current alternatives are not usable in their current state. We want to create something which we will use ourselves in production.  
 
 Not Limited to Hosting, it can be used for any kind of automated billing and provisioning business. 
+
+
+## :date: Release Date for V1.0 (Tentative)
+
+We are targeting to release it by 20 July 2022.
 
 
 ## Development Stacks:
