@@ -70,6 +70,10 @@ We are targeting to release it by 20 July 2022.
 
 Using WordPress-Like Plugin Architecture allows you to develop plugins, search and activate them from the marketplace
 
+## :electric_plug: Developing :trophy:
+
+Fork and Use docker compose in this repo. Database and Code is included together. Pull Request are welcome
+
 ## :green_book: License
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue)
