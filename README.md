@@ -2,7 +2,7 @@
     <img src="https://github.com/tariqsocial/brighty/blob/main/Logo.png?raw=true" height="100px">
 </p>
 
-<h1 align="center"># Brighty - Web Hosting Automation, Billing and Provisioning Platform for the Sane Hosts</h1>
+<h1 align="center">Brighty - Web Hosting Automation, Billing and Provisioning Platform for the Sane Hosts</h1>
 
 
 :wave: Hi There! We are creating a production-level "WHMCS Alternative" with integrated billing, automation and provisioning Platform for web hosters. This project aims to give you a usable and extendable platform with minimal but all required features to run a web design agency or a hosting company.
