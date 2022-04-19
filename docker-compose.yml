@@ -1,25 +1,56 @@
-version: '2'
+version: "3"
 
 services:
-  mariadb:
-    image: docker.io/bitnami/mariadb:10.6
-    environment:
-      # ALLOW_EMPTY_PASSWORD is recommended only for development.
-      - ALLOW_EMPTY_PASSWORD=yes
-      - MARIADB_USER=bn_myapp
-      - MARIADB_DATABASE=bitnami_myapp
-  myapp:
-    image: docker.io/bitnami/codeigniter:4
-    ports:
-      - '8000:8000'
-    environment:
-      # ALLOW_EMPTY_PASSWORD is recommended only for development.
-      - ALLOW_EMPTY_PASSWORD=yes
-      - CODEIGNITER_DATABASE_HOST=mariadb
-      - CODEIGNITER_DATABASE_PORT_NUMBER=3306
-      - CODEIGNITER_DATABASE_USER=bn_myapp
-      - CODEIGNITER_DATABASE_NAME=bitnami_myapp
-    volumes:
-      - './brighty:/app'
-    depends_on:
-      - mariadb
+#--------------------------------------------------------------------------#
+#--------------------------------------------------------------------------#
+#                     C O D E I G N I T E R  v4.1.8                        #
+#--------------------------------------------------------------------------#
+#--------------------------------------------------------------------------#
+    codeigniter4:
+        image: atsanna/codeigniter4:latest
+#        image: atsanna/codeigniter4:v4.1.8-php7.4
+#        image: atsanna/codeigniter4:v4.1.8-php8.0
+        container_name: 'codeigniter4'
+        ports:
+          - 80:80
+        links:
+          - codeigniter4_mysql
+        volumes:
+          - ./www:/var/www/html
+
+#--------------------------------------------------------------------------#
+#--------------------------------------------------------------------------#
+#                               M Y S Q L                                  #
+#--------------------------------------------------------------------------#
+#--------------------------------------------------------------------------#               
+    codeigniter4_mysql:
+        image: mariadb:10.5.5
+        container_name: 'codeigniter4_mysql'
+        ports:
+          - 3306:3306
+        volumes:
+          - ./mysql:/var/lib/mysql
+          - ./logs/mysql:/var/log/mysql
+        environment:
+          MYSQL_ROOT_PASSWORD: rootpassword
+          MYSQL_DATABASE: codeigniter4
+          MYSQL_USER: codeigniter4
+          MYSQL_PASSWORD: codeigniter4
+
+#--------------------------------------------------------------------------#
+#--------------------------------------------------------------------------#
+#                         P H P M Y A D M I N                              #
+#--------------------------------------------------------------------------#
+#--------------------------------------------------------------------------#             
+    codeigniter4_phpmyadmin:
+        image: phpmyadmin/phpmyadmin:5.0.2
+        container_name: 'codeigniter4_phpmyadmin'
+        links:
+          - codeigniter4_mysql
+        environment:
+          PMA_HOST: codeigniter4_mysql
+          PMA_PORT: 3306
+        ports:
+          - 81:80
+        volumes:
+          - ./sessions:/sessions
