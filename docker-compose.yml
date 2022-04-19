@@ -10,7 +10,7 @@ services:
         image: atsanna/codeigniter4:latest
 #        image: atsanna/codeigniter4:v4.1.8-php7.4
 #        image: atsanna/codeigniter4:v4.1.8-php8.0
-        container_name: 'codeigniter4'
+        container_name: 'brighty'
         ports:
           - 80:80
         links:
