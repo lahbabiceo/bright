@@ -35,24 +35,24 @@ We are targeting to release it by 20 July 2022.
 - VueJs
 
 
-## Current Goals
+## :bicyclist: Current Goals
 
 - Integrate a login script - allows you to create a login popup and logged-in user bar on any site by interting a few lines of js code
 - User Registration | Supported: Social Media, Mobile, Email, Email Verification, SMS Verification etc.
 - User Dashboard / Client Panel
 
 
-**Domain Name** :
+**Domain Name** :globe_with_meridians: :
   -   Automated Registration | Supported : ResellerClub or any Logicboxes
   -   Name Server Update
   -   Domain Contact Update
   -   Domain Name Purchase 
 
-**Hosting**
+**Hosting** :desktop_computer:
   - CWP automated Provisioning & Suspension (Auto and Manual)
   - Hosting Package Purchase
   
-**Invoice**
+**Invoice** :page_with_curl:
   - Create Invoice
   - Invoice Payment 
   - Automated Invoice Generation
@@ -63,11 +63,13 @@ We are targeting to release it by 20 July 2022.
   - Skrill
   - Stripe
 
-## Pluggable
+## :electric_plug: Pluggable Architecture
 
-Using WordPress Like Plugin Architecture
+Using WordPress-Like Plugin Architecture allows you to develop plugins, search and activate them from the marketplace
 
-## License
+## :green_book: License
 
 MIT License
+
+![MIT License](https://img.shields.io/badge/license-MIT-blue)
 Feel free to use it for as long as you want and any manner you want.
