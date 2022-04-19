@@ -39,7 +39,7 @@ Looking for Core group.
 
 
 **Domain Name** :globe_with_meridians: :
-  -   Automated Registration | Supported : ResellerClub or any Logicboxes
+  -   Automated Registration | Supported : Logicboxes
   -   Name Server Update
   -   Domain Contact Update
   -   Domain Name Purchase 
