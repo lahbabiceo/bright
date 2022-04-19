@@ -1,4 +1,6 @@
-![alt text](https://github.com/tariqsocial/brighty/blob/main/Logo.png?raw=true)
+<p align="center">
+    ![alt text](https://github.com/tariqsocial/brighty/blob/main/Logo.png?raw=true)
+</p>
 
 # Brighty - Web Hosting Automation, Billing and Provisioning Platform for the Sane Hosts
 
@@ -57,7 +59,7 @@ We are targeting to release it by 20 July 2022.
   - Invoice Payment 
   - Automated Invoice Generation
 
-**Payment Gateways**
+**Payment Gateways** :credit_card:
   - Paypal
   - RazorPay
   - Skrill
@@ -69,7 +71,6 @@ Using WordPress-Like Plugin Architecture allows you to develop plugins, search a
 
 ## :green_book: License
 
-MIT License
-
 ![MIT License](https://img.shields.io/badge/license-MIT-blue)
-Feel free to use it for as long as you want and any manner you want.
+
+MIT License : Feel free to use it for as long as you want and any manner you want.
