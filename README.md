@@ -1,5 +1,5 @@
 <p align="center">
-    ![alt text](https://github.com/tariqsocial/brighty/blob/main/Logo.png?raw=true)
+    <img src="https://github.com/tariqsocial/brighty/blob/main/Logo.png?raw=true" height="100px">
 </p>
 
 # Brighty - Web Hosting Automation, Billing and Provisioning Platform for the Sane Hosts
