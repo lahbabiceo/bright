@@ -12,11 +12,7 @@ Looking for Core group.
 
 ### Join Our Community
 
-Project View [View Github Project View](https://github.com/users/tariq-abdullah/projects/1/views/1])
-
-![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)   [Join Our Discord Server](https://discord.gg/dUCmJcs5xv)
-
-![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)  [Join Telegram Group](https://t.me/+PyUnIpTv9i42ODJl)
+[Github Project View](https://github.com/users/tariq-abdullah/projects/1/views/1])  |   [Join Our Discord Server](https://discord.gg/dUCmJcs5xv)    |    [Join Telegram Group](https://t.me/+PyUnIpTv9i42ODJl)
 
 
 
