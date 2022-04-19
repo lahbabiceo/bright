@@ -9,14 +9,6 @@
 
 ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue). [![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)](https://packagist.org/packages/phpunit/phpunit)
 
-## Status: Not Usable. Just Started. We are in early development/ideation stage. 
-
-Looking for Core group. 
-
-### :handshake: Join Our Community
-
-[Github Project View](https://github.com/users/tariq-abdullah/projects/1/views/1])  |   [Join Our Discord Server](https://discord.gg/dUCmJcs5xv)    |    [Join Telegram Group](https://t.me/+PyUnIpTv9i42ODJl)
-
 
 
 ## Every one is fed up of paid web hosting automation software!
@@ -30,12 +22,13 @@ Not Limited to Hosting, it can be used for any kind of automated billing and pro
 
 We are targeting to release it by 20 July 2022.
 
+## Status: Not Usable. Just Started. We are in early development/ideation stage. 
 
-## Development Stacks:
+Looking for Core group. 
 
-- Codeigniter
-- MySQL
-- VueJs
+### :handshake: Join Our Community
+
+[Github Project View](https://github.com/users/tariq-abdullah/projects/1/views/1])  |   [Join Our Discord Server](https://discord.gg/dUCmJcs5xv)    |    [Join Telegram Group](https://t.me/+PyUnIpTv9i42ODJl)
 
 
 ## :bicyclist: Current Goals
@@ -73,6 +66,13 @@ Using WordPress-Like Plugin Architecture allows you to develop plugins, search a
 ## :trophy: Developing 
 
 Fork and Use docker compose in this repo. Database and Code is included together. Pull Request are welcome
+
+## Development Stacks:
+
+- Codeigniter
+- MySQL
+- VueJs
+
 
 ## :green_book: License
 
