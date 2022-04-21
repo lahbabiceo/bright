@@ -16,7 +16,7 @@
 
 ## Every one is fed up of paid web hosting automation software!
 
-So What do we do? The answer is to create something together. All current alternatives are not usable in their current state. We want to create something which we will use ourselves in production.  
+So What do we do? The answer is to create something together. In our experience, current alternatives are not only outdated (and in code debt) but also needs to be built keeping in view the current needs of the industry. We want to create something which we will use ourselves in production.  
 
 Not Limited to Hosting, it can be used for any kind of automated billing and provisioning business. 
 
