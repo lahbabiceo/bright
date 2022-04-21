@@ -7,9 +7,12 @@
 
 :wave: Hi There! We are creating a production-level "WHMCS Alternative" with integrated billing, automation and provisioning Platform for web hosters. This project aims to give you a usable and extendable platform with minimal but all required features to run a web design agency or a hosting company.
 
-![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) [![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)](https://packagist.org/packages/phpunit/phpunit)  ![Codeigniter](https://img.shields.io/badge/framework-Codeigniter4-orange)
 
+<div align="center">
 
+ ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) ![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)  ![Codeigniter](https://img.shields.io/badge/framework-Codeigniter4-orange)   ![BoxBilling Size](https://img.shields.io/github/repo-size/iqltechnologies/brighty.svg?style=popout) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iqltechnologies/brighty/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/iqltechnologies/brighty/?branch=main)    [![CodeFactor](https://www.codefactor.io/repository/github/iqltechnologies/brighty/badge)](https://www.codefactor.io/repository/github/iqltechnologies/brighty)
+
+</div> 
 
 ## Every one is fed up of paid web hosting automation software!
 
