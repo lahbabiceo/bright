@@ -1,0 +1,204 @@
+ERROR - 2022-04-28 13:05:35 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-04-28 13:05:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /app/brighty/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/brighty/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/brighty/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/brighty/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(161): CodeIgniter\Controller->validate()
+#7 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-28 13:07:15 --> Error connecting to the database: Cannot assign requested address
+CRITICAL - 2022-04-28 13:07:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Cannot assign requested address
+#0 /app/brighty/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/brighty/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/brighty/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/brighty/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(161): CodeIgniter\Controller->validate()
+#7 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-28 13:08:06 --> Error connecting to the database: Cannot assign requested address
+CRITICAL - 2022-04-28 13:08:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Cannot assign requested address
+#0 /app/brighty/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/brighty/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/brighty/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/brighty/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(161): CodeIgniter\Controller->validate()
+#7 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-28 13:08:16 --> Error connecting to the database: Cannot assign requested address
+CRITICAL - 2022-04-28 13:08:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Cannot assign requested address
+#0 /app/brighty/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/brighty/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/brighty/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/brighty/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(161): CodeIgniter\Controller->validate()
+#7 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-28 13:08:31 --> Error connecting to the database: Cannot assign requested address
+CRITICAL - 2022-04-28 13:08:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Cannot assign requested address
+#0 /app/brighty/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/brighty/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/brighty/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/brighty/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(161): CodeIgniter\Controller->validate()
+#7 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-28 13:09:26 --> strong_password is not a valid rule.
+#0 /app/brighty/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(172): CodeIgniter\Controller->validate()
+#4 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#5 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-28 13:10:01 --> strong_password is not a valid rule.
+#0 /app/brighty/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(172): CodeIgniter\Controller->validate()
+#4 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#5 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-28 13:14:04 --> Error connecting to the database: php_network_getaddresses: getaddrinfo for brighty_mysql failed: nodename nor servname provided, or not known
+ERROR - 2022-04-28 13:15:27 --> Error connecting to the database: Cannot assign requested address
+CRITICAL - 2022-04-28 13:15:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Cannot assign requested address
+#0 /app/brighty/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/brighty/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/brighty/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/brighty/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(161): CodeIgniter\Controller->validate()
+#7 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-28 13:20:46 --> Error connecting to the database: Cannot assign requested address
+CRITICAL - 2022-04-28 13:20:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Cannot assign requested address
+#0 /app/brighty/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/brighty/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/brighty/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/brighty/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(161): CodeIgniter\Controller->validate()
+#7 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-28 13:22:05 --> Error connecting to the database: Cannot assign requested address
+CRITICAL - 2022-04-28 13:22:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Cannot assign requested address
+#0 /app/brighty/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/brighty/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/brighty/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/brighty/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(161): CodeIgniter\Controller->validate()
+#7 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-28 13:22:34 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: Name or service not known
+CRITICAL - 2022-04-28 13:22:34 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: Name or service not known
+#0 /app/brighty/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/brighty/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/brighty/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/brighty/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(161): CodeIgniter\Controller->validate()
+#7 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-28 13:23:10 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: Name or service not known
+CRITICAL - 2022-04-28 13:23:10 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: Name or service not known
+#0 /app/brighty/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/brighty/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/brighty/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/brighty/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(161): CodeIgniter\Controller->validate()
+#7 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-04-28 13:23:24 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: Name or service not known
+CRITICAL - 2022-04-28 13:23:24 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: Name or service not known
+#0 /app/brighty/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /app/brighty/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /app/brighty/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /app/brighty/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#4 /app/brighty/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#5 /app/brighty/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(161): CodeIgniter\Controller->validate()
+#7 /app/brighty/system/CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-28 13:23:57 --> Class "CodeIgniter\Database\MySQL\Connection" not found
+#0 /app/brighty/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /app/brighty/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /app/brighty/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /app/brighty/system/Config/Factories.php(110): CodeIgniter\Model->__construct()
+#4 /app/brighty/system/Common.php(780): CodeIgniter\Config\Factories::__callStatic()
+#5 /app/brighty/vendor/myth/auth/src/Config/Services.php(27): model()
+#6 /app/brighty/system/Config/BaseService.php(248): Myth\Auth\Config\Services::authentication()
+#7 /app/brighty/system/Config/BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic()
+#8 /app/brighty/vendor/myth/auth/src/Config/Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance()
+#9 /app/brighty/system/Config/BaseService.php(248): Myth\Auth\Config\Services::authentication()
+#10 /app/brighty/system/Common.php(929): CodeIgniter\Config\BaseService::__callStatic()
+#11 /app/brighty/vendor/myth/auth/src/Controllers/AuthController.php(30): service()
+#12 /app/brighty/system/CodeIgniter.php(809): Myth\Auth\Controllers\AuthController->__construct()
+#13 /app/brighty/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#14 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#15 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}

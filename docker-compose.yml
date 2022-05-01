@@ -1,3 +1,9 @@
+
+#--------------------------------------------------------------------------#
+#--------------------------------------------------------------------------#
+#                            B R I G H T Y                                 #
+#--------------------------------------------------------------------------#
+#--------------------------------------------------------------------------#
 version: "3"
 
 services:
@@ -7,15 +13,25 @@ services:
 #--------------------------------------------------------------------------#
 #--------------------------------------------------------------------------#
     brighty:
-        image: shinsenter/codeigniter4:php8.1-tidy
+        image: docker.io/bitnami/codeigniter:4
         container_name: 'brighty'
         ports:
-          - 80:80
+          - 80:8000
           - 443:443
         links:
           - brighty_mysql
         volumes:
-          - ./www/brighty/:/var/www/html
+          - ./:/app
+        links:
+          - brighty_mysql      
+        environment:
+          # ALLOW_EMPTY_PASSWORD is recommended only for development.
+          - CODEIGNITER_DATABASE_HOST=brighty_mysql
+          - CODEIGNITER_DATABASE_PORT_NUMBER=3306
+          - CODEIGNITER_DATABASE_USER=root
+          - CODEIGNITER_DATABASE_NAME=codeigniter4
+          - CODEIGNITER_DATABASE_PASSWORD=rootpassword
+          - CODEIGNITER_PROJECT_NAME=brighty
 
 #--------------------------------------------------------------------------#
 #--------------------------------------------------------------------------#
