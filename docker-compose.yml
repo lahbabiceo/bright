@@ -21,9 +21,7 @@ services:
         links:
           - brighty_mysql
         volumes:
-          - ./:/app
-        links:
-          - brighty_mysql      
+          - ./:/app    
         environment:
           # ALLOW_EMPTY_PASSWORD is recommended only for development.
           - CODEIGNITER_DATABASE_HOST=brighty_mysql
