@@ -1,0 +1,9 @@
+CRITICAL - 2022-05-01 04:46:22 --> syntax error, unexpected token "echo"
+#0 /app/brighty/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /app/brighty/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /app/brighty/app/Controllers/Home.php(9): view()
+#3 /app/brighty/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
