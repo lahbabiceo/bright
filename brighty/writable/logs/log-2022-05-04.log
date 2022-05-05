@@ -1,0 +1,65 @@
+CRITICAL - 2022-05-04 22:05:27 --> Undefined constant "App\Controllers\this"
+#0 /app/brighty/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 22:05:43 --> Call to undefined method App\Controllers\Home::load()
+#0 /app/brighty/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 22:07:58 --> Undefined property: App\Controllers\Home::$load
+#0 /app/brighty/app/Controllers/Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/brighty/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 22:08:32 --> Undefined property: App\Controllers\Home::$load
+#0 /app/brighty/app/Controllers/Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /app/brighty/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#2 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-04 22:08:52 --> Call to undefined method App\Controllers\Home::view()
+#0 /app/brighty/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 22:09:06 --> Invalid file: http://0.0.0.0/public/index.html
+#0 /app/brighty/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /app/brighty/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /app/brighty/app/Controllers/Home.php(11): view()
+#3 /app/brighty/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 22:09:22 --> Invalid file: /public/index.html
+#0 /app/brighty/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /app/brighty/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /app/brighty/app/Controllers/Home.php(11): view()
+#3 /app/brighty/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 22:09:35 --> Invalid file: public/index.html
+#0 /app/brighty/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /app/brighty/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /app/brighty/app/Controllers/Home.php(11): view()
+#3 /app/brighty/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 22:23:09 --> Call to undefined method App\Controllers\Home::_render_page()
+#0 /app/brighty/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#1 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
