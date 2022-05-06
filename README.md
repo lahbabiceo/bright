@@ -76,6 +76,34 @@ Fork and Use docker compose in this repo. Database and Code is included together
 - MySQL
 - VueJs
 
+# Requirements
+  ## Frontend
+    The frontend has no special requirement as it is static HTML 
+  ## Backend
+    PHP version 7.3 or newer with following extensions intalled: *intl*, *mbstring* php-json, php-mysqlnd, php-xml. A database is also required.
+
+# Installation Instruction
+
+  You can install frontend and backend separately (recommended) as well as together(easy). Follow these steps carefully
+
+  ## Option 1 : One Click Installer
+
+  - Download Brighty.zip and Upload level above public directory(generally public_html on cpanel and /var/www/html elsewhere; do not upload zip to public_html or html instead one level up eg. www). 
+  - In your browser open your-url.tld/install and follow on-screen instruction
+
+  ## Option 2 : Manual Install 
+
+  - For latest development version download project as zip or download a stable release(Recommended)
+  - Go to public directory of your hosting (generally public_html on cpanel and /var/www/html elsewhere) and upload the contents of public folder there.
+  - edit brighty-config.json and place your brighty backend url there (with protocol and trailing slash) Frontend installation is complete.
+  - to install backend upload everything including public directory one level above public. make sure contents of public directory are public and nothing else otherwise your system will be open to everyone for playing aka hacking and expliting.
+  - if you want to keep your backend on the same domain/directory, move to next step otherwise if your backend is separated then remove everything other than index.php and .htaccess files from project public folder.
+  - IMPORTANT : remove .htaccess and index.php from project root (/brighty folder) regardless of your previous step as it is there for helping us during development only
+  - Login to your frontend with  
+
+## Installation Note: 
+
+  - there is no specific admin url. To access admin area you need to login as a normal urser with admin credentials
 
 ## :green_book: License
 
