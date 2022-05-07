@@ -31,8 +31,8 @@ Looking for Core group.
 
 ### :handshake: Join Our Community
 
-[Github Project View](https://github.com/users/tariq-abdullah/projects/1/views/1])  |   [Join Our Discord Server](https://discord.gg/dUCmJcs5xv)    |    [Join Telegram Group](https://t.me/+PyUnIpTv9i42ODJl)
-
+ <a href="https://discord.gg/dUCmJcs5xv"><img src="https://img.shields.io/badge/Discord-Join%20Discord%20Server-purple"></a>
+ <a href="https://t.me/+PyUnIpTv9i42ODJl"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Channel-skyblue"></a>
 
 ## :bicyclist: Current Goals
 
@@ -40,21 +40,24 @@ Looking for Core group.
 - User Registration | Supported: Social Media, Mobile, Email, Email Verification, SMS Verification etc.
 - User Dashboard / Client Panel
 
+<table><tr><td>**Domain Name** :globe_with_meridians: :</td>
+        <td>**Hosting** :desktop_computer:</td>
+        <td>**Invoice** :page_with_curl:</td></tr>
+    <tr><td>Automated Registration | Supported : Logicboxes</td>
+        <td>CWP automated Provisioning & Suspension (Auto and Manual)</td>
+        <td>Create Invoice</td></tr>
+    <tr><td>Name Server Update</td>
+        <td>Hosting Package Purchase</td>
+        <td>Invoice Payment </td>
+    </tr><tr><td>Domain Contact Update</td>
+        <td>One Click Hosting Control Panel Login</td>
+        <td>Automated Invoice Generation</td>
+        <td></td></tr>
+    <tr><td>Domain Contact Update</td>
+    <td>Hosting Renwal Reminder</td>
+    <td>Invoice Payment Reminder</td></tr>
+</table>
 
-**Domain Name** :globe_with_meridians: :
-  -   Automated Registration | Supported : Logicboxes
-  -   Name Server Update
-  -   Domain Contact Update
-  -   Domain Name Purchase 
-
-**Hosting** :desktop_computer:
-  - CWP automated Provisioning & Suspension (Auto and Manual)
-  - Hosting Package Purchase
-  
-**Invoice** :page_with_curl:
-  - Create Invoice
-  - Invoice Payment 
-  - Automated Invoice Generation
 
 **Payment Gateways** :credit_card:
   - Paypal
