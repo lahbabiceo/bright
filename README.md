@@ -10,7 +10,7 @@
 
 <div align="center">
 
- ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) ![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)  ![Codeigniter](https://img.shields.io/badge/framework-Codeigniter4-orange)   ![BoxBilling Size](https://img.shields.io/github/repo-size/iqltechnologies/brighty.svg?style=popout) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iqltechnologies/brighty/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/iqltechnologies/brighty/?branch=main)    [![CodeFactor](https://www.codefactor.io/repository/github/iqltechnologies/brighty/badge)](https://www.codefactor.io/repository/github/iqltechnologies/brighty)
+ ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) ![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)  ![Laravel](https://img.shields.io/badge/framework-Laravel5-orange)   ![BoxBilling Size](https://img.shields.io/github/repo-size/iqltechnologies/brighty.svg?style=popout) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iqltechnologies/brighty/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/iqltechnologies/brighty/?branch=main)    [![CodeFactor](https://www.codefactor.io/repository/github/iqltechnologies/brighty/badge)](https://www.codefactor.io/repository/github/iqltechnologies/brighty)
 
 </div> 
 
@@ -72,7 +72,7 @@ Fork and Use docker compose in this repo. Database and Code is included together
 
 ## Development Stacks:
 
-- Codeigniter
+- Laravel
 - MySQL
 - VueJs
 
