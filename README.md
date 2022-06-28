@@ -31,8 +31,8 @@ Looking for Core group.
 
 ### :handshake: Join Our Community
 
-[Github Project View](https://github.com/users/tariq-abdullah/projects/1/views/1])  |   [Join Our Discord Server](https://discord.gg/dUCmJcs5xv)    |    [Join Telegram Group](https://t.me/+PyUnIpTv9i42ODJl)
-
+ <a href="https://discord.gg/dUCmJcs5xv"><img src="https://img.shields.io/badge/Discord-Join%20Discord%20Server-purple"></a>
+ <a href="https://t.me/+PyUnIpTv9i42ODJl"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Channel-skyblue"></a>
 
 ## :bicyclist: Current Goals
 
@@ -40,27 +40,16 @@ Looking for Core group.
 - User Registration | Supported: Social Media, Mobile, Email, Email Verification, SMS Verification etc.
 - User Dashboard / Client Panel
 
+<table><tr><td><strong>Domain Name</strong> :globe_with_meridians: :</td><td><strong>Hosting</strong> :desktop_computer:</td><td><strong>Invoice</strong> :page_with_curl:</td></tr>
+    <tr><td>Automated Registration | Supported : Logicboxes</td><td>CWP automated Provisioning</td><td>Create Invoice</td></tr>
+    <tr><td>Name Server Update</td><td>Hosting Package Purchase</td><td>Invoice Payment </td></tr>
+    <tr><td>Domain Contact Update</td><td>One Click Hosting Control Panel Login</td><td>Automated Invoice Generation</td><td></td></tr>
+    <tr><td>Domain Contact Update</td><td>Hosting Renwal Reminder</td><td>Invoice Payment Reminder</td></tr>
+</table>
 
-**Domain Name** :globe_with_meridians: :
-  -   Automated Registration | Supported : Logicboxes
-  -   Name Server Update
-  -   Domain Contact Update
-  -   Domain Name Purchase 
-
-**Hosting** :desktop_computer:
-  - CWP automated Provisioning & Suspension (Auto and Manual)
-  - Hosting Package Purchase
-  
-**Invoice** :page_with_curl:
-  - Create Invoice
-  - Invoice Payment 
-  - Automated Invoice Generation
 
 **Payment Gateways** :credit_card:
-  - Paypal
-  - RazorPay
-  - Skrill
-  - Stripe
+  - Paypal  - RazorPay  - Skrill    - Stripe
 
 ## :electric_plug: Pluggable Architecture
 
@@ -88,7 +77,7 @@ Fork and Use docker compose in this repo. Database and Code is included together
 
   ## Option 1 : One Click Installer
 
-  - Download Brighty.zip and Upload level above public directory(generally public_html on cpanel and /var/www/html elsewhere; do not upload zip to public_html or html instead one level up eg. www). 
+  - Download Brighty.zip and Upload **one level above public directory** (generally public_html on cpanel and /var/www/html elsewhere; do not upload zip to public_html or html instead one level up eg. www). 
   - In your browser open your-url.tld/install and follow on-screen instruction
 
   ## Option 2 : Manual Install 
@@ -109,4 +98,4 @@ Fork and Use docker compose in this repo. Database and Code is included together
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue)
 
-MIT License : Feel free to use it for as long as you want and any manner you want.
+MIT License : Feel free to use it for as long as you want and in any manner you want.
