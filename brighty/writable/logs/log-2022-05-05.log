@@ -1,6 +1,0 @@
-CRITICAL - 2022-05-05 05:42:31 --> Call to undefined method App\Controllers\Home::_render_page()
-#0 /app/brighty/system/CodeIgniter.php(832): App\Controllers\Home->index()
-#1 /app/brighty/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
-#2 /app/brighty/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
-#3 /app/brighty/public/index.php(37): CodeIgniter\CodeIgniter->run()
-#4 {main}

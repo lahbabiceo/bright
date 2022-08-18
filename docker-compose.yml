@@ -13,23 +13,28 @@ services:
 #--------------------------------------------------------------------------#
 #--------------------------------------------------------------------------#
     brighty:
-        image: docker.io/bitnami/codeigniter:4
+        image: docker.io/bitnami/laravel:9 #docker.io/bitnami/codeigniter:4
         container_name: 'brighty'
         ports:
-          - 80:8000
+          - 8000:8000
           - 443:443
         links:
           - brighty_mysql
         volumes:
           - ./:/app    
         environment:
-          # ALLOW_EMPTY_PASSWORD is recommended only for development.
-          - CODEIGNITER_DATABASE_HOST=brighty_mysql
-          - CODEIGNITER_DATABASE_PORT_NUMBER=3306
-          - CODEIGNITER_DATABASE_USER=root
-          - CODEIGNITER_DATABASE_NAME=codeigniter4
-          - CODEIGNITER_DATABASE_PASSWORD=rootpassword
-          - CODEIGNITER_PROJECT_NAME=brighty
+          # # ALLOW_EMPTY_PASSWORD is recommended only for development.
+          # - CODEIGNITER_DATABASE_HOST=brighty_mysql
+          # - CODEIGNITER_DATABASE_PORT_NUMBER=3306
+          # - CODEIGNITER_DATABASE_USER=root
+          # - CODEIGNITER_DATABASE_NAME=codeigniter4
+          # - CODEIGNITER_DATABASE_PASSWORD=rootpassword
+          # - CODEIGNITER_PROJECT_NAME=brighty
+
+          - DB_HOST=brighty_mysql
+          - DB_PORT=3306
+          - DB_USERNAME=root
+          - DB_DATABASE=rootpassword
 
 #--------------------------------------------------------------------------#
 #--------------------------------------------------------------------------#
