@@ -10,7 +10,7 @@
 
 <div align="center">
 
- ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) ![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)  ![Laravel](https://img.shields.io/badge/framework-Laravel5-orange)   ![BoxBilling Size](https://img.shields.io/github/repo-size/iqltechnologies/brighty.svg?style=popout) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iqltechnologies/brighty/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/iqltechnologies/brighty/?branch=main)    [![CodeFactor](https://www.codefactor.io/repository/github/iqltechnologies/brighty/badge)](https://www.codefactor.io/repository/github/iqltechnologies/brighty)
+ ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) ![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)  ![Laravel](https://img.shields.io/badge/framework-Laravel5-orange)   ![BoxBilling Size](https://img.shields.io/github/repo-size/iqltechnologies/brighty.svg?style=popout) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iqltechnologies/brighty/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/iqltechnologies/brighty/?branch=main)    
 
 </div> 
 
@@ -32,7 +32,7 @@ This app is made up of four different and independent parts. These parts are ind
   - *Client Area*: This is where your customers will be able to login and manage their accounts;  ![BUILT WITH](https://img.shields.io/badge/built-with-green) vuejs
 
   - *Backend / API*: This is the API used by Website, Admin Area, and Client Area to fetch and store data; ![BUILT WITH](https://img.shields.io/badge/built-with-green) Laravel 
-
+ 
 
 ## :date: Release Date for V1.0 (Tentative)
 
