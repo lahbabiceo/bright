@@ -10,7 +10,7 @@
 
 <div align="center">
 
- ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) ![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)  ![Laravel](https://img.shields.io/badge/framework-Laravel5-orange)   ![BoxBilling Size](https://img.shields.io/github/repo-size/iqltechnologies/brighty.svg?style=popout) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iqltechnologies/brighty/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/iqltechnologies/brighty/?branch=main)    
+ ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) ![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)  ![Laravel](https://img.shields.io/badge/framework-Laravel5-orange)   ![BoxBilling Size](https://img.shields.io/github/repo-size/iqltechnologies/brighty.svg?style=popout) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iqltechnologies/brighty/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/iqltechnologies/brighty/?branch=main)     
 
 </div> 
 
@@ -25,13 +25,13 @@ Not Limited to Hosting, it can be used for any kind of automated billing and pro
 
 This app is made up of four different and independent parts. These parts are independednt of each other and each can work on a separate hosting accounts/server or on same hosting account.
 
-  - *Website* : This is where users will be able to purchase your products such as domain name, website, packages, hosting etc;  ![BUILT WITH](https://img.shields.io/badge/built-with-green) HTML, JS and BootPolish(a simple vuejs addon)
+  - **Website** : This is where users will be able to purchase your products such as domain name, website, packages, hosting etc;  ![BUILT WITH](https://img.shields.io/badge/built-with-green) HTML, JS and BootPolish(a simple vuejs addon)
 
-  - *Admin Area* : used to manage and control your products, orders, users, servers, domains etc.; ![BUILT WITH](https://img.shields.io/badge/built-with-green) vuejs
+  - **Admin Area** : used to manage and control your products, orders, users, servers, domains etc.; ![BUILT WITH](https://img.shields.io/badge/built-with-green) vuejs
 
-  - *Client Area*: This is where your customers will be able to login and manage their accounts;  ![BUILT WITH](https://img.shields.io/badge/built-with-green) vuejs
+  - **Client Area**: This is where your customers will be able to login and manage their accounts;  ![BUILT WITH](https://img.shields.io/badge/built-with-green) vuejs
 
-  - *Backend / API*: This is the API used by Website, Admin Area, and Client Area to fetch and store data; ![BUILT WITH](https://img.shields.io/badge/built-with-green) Laravel 
+  - **Backend / API**: This is the API used by Website, Admin Area, and Client Area to fetch and store data; ![BUILT WITH](https://img.shields.io/badge/built-with-green) Laravel 
  
 
 ## :date: Release Date for V1.0 (Tentative)
