@@ -20,19 +20,19 @@ So What do we do? The answer is to create something together. In our experience,
 
 Not Limited to Hosting, it can be used for any kind of automated billing and provisioning business. 
 
-
 ## Architecture: Keeping it simple
 
 This app is made up of four different and independent parts. These parts are independednt of each other and each can work on a separate hosting accounts/server or on same hosting account.
 
   - **Website** : This is where users will be able to purchase your products such as domain name, website, packages, hosting etc;  ![BUILT WITH](https://img.shields.io/badge/built-with-green) HTML, JS and BootPolish(a simple vuejs addon)
 
-  - **Admin Area** : used to manage and control your products, orders, users, servers, domains etc.; ![BUILT WITH](https://img.shields.io/badge/built-with-green) vuejs
-
   - **Client Area**: This is where your customers will be able to login and manage their accounts;  ![BUILT WITH](https://img.shields.io/badge/built-with-green) vuejs
 
-  - **Backend / API**: This is the API used by Website, Admin Area, and Client Area to fetch and store data; ![BUILT WITH](https://img.shields.io/badge/built-with-green) Laravel 
- 
+
+  - **Backend / API**: This is the API used by Website, Admin Area, and Client Area to fetch and store data; ![BUILT WITH](https://img.shields.io/badge/built-with-green) WordPress (currently), Laravel(future)
+
+  - **Admin Area** : used to manage and control your products, orders, users, servers, domains etc.; ![BUILT WITH](https://img.shields.io/badge/built-with-green) WordPress, Laravel(future)
+
 
 ## :date: Release Date for V1.0 (Tentative)
 
@@ -41,6 +41,16 @@ We are targeting to release it by 13 September 2022.
 ## Status: Not Usable. Just Started. We are in early development/ideation stage. 
 
 Looking for Core group. 
+
+
+
+## Notes & Decisions
+
+It was initially planned to be developed using laravel or codeigniter however upon realizing the fact that wordpress & woocommerce have quicker development time, more flexibility and a vast amount of available plugins, I decided that it is a wiser decision to go with using wordpress as a backend. 
+
+The only issue here seems to be scalability issues howver that is accounted for because our frontend is basically plain & simple old html & css. The user dashboard and admin dashboards are also accounted for in other ways.
+
+
 
 ### :handshake: Join Our Community
 
@@ -87,7 +97,7 @@ Fork and Use docker compose in this repo. Database and Code is included together
 
 # Installation Instruction
 
-  You can install clientarea, adminarea, and website separately (recommended) as well as together(easy). Follow these steps carefully
+  You can install Client Area, Admin Area, Website and API separately as well as together(easy). Follow these steps carefully
 
   ## Option 1 : One Click Installer
 

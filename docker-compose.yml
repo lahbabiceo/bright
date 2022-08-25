@@ -13,28 +13,30 @@ services:
 #--------------------------------------------------------------------------#
 #--------------------------------------------------------------------------#
     brighty:
-        image: docker.io/bitnami/laravel:9 #docker.io/bitnami/codeigniter:4
-        container_name: 'brighty'
-        ports:
-          - 8000:8000
-          - 443:443
-        links:
-          - brighty_mysql
-        volumes:
-          - ./:/app    
-        environment:
-          # # ALLOW_EMPTY_PASSWORD is recommended only for development.
-          # - CODEIGNITER_DATABASE_HOST=brighty_mysql
-          # - CODEIGNITER_DATABASE_PORT_NUMBER=3306
-          # - CODEIGNITER_DATABASE_USER=root
-          # - CODEIGNITER_DATABASE_NAME=codeigniter4
-          # - CODEIGNITER_DATABASE_PASSWORD=rootpassword
-          # - CODEIGNITER_PROJECT_NAME=brighty
-
-          - DB_HOST=brighty_mysql
-          - DB_PORT=3306
-          - DB_USERNAME=root
-          - DB_DATABASE=rootpassword
+        # image: docker.io/bitnami/laravel:9 
+        # ports:
+        #   - 8000:8000
+        #   - 443:443
+        # links:
+        #   - brighty_mysql
+        # volumes:
+        #   - ./:/app    
+  
+      image: docker.io/bitnami/laravel:9
+      container_name: 'brighty'
+      ports:
+        - '8000:8000'
+        - 443:443
+      environment:
+        - DB_HOST=brighty_mysql
+        - DB_PORT=3306
+        - DB_DATABASE=brighty
+        - DB_USERNAME=root
+        - DB_PASSWORD=BrightyPl
+      volumes:
+        - './api:/app'
+      depends_on:
+        - brighty_mysql
 
 #--------------------------------------------------------------------------#
 #--------------------------------------------------------------------------#
@@ -47,22 +49,22 @@ services:
         ports:
           - 3306:3306
         volumes:
-          - ./mysql:/var/lib/mysql
-          - ./logs/mysql:/var/log/mysql
+          - ./database/mysql:/var/lib/mysql
+          - ./database/logs/mysql:/var/log/mysql
         environment:
-          MYSQL_ROOT_PASSWORD: rootpassword
-          MYSQL_DATABASE: codeigniter4
-          MYSQL_USER: codeigniter4
-          MYSQL_PASSWORD: codeigniter4
+          MYSQL_DATABASE: brighty
+          MYSQL_USER: brighty_user
+          MYSQL_PASSWORD: BrightyP
+          MYSQL_ROOT_PASSWORD: BrightyP
 
 #--------------------------------------------------------------------------#
 #--------------------------------------------------------------------------#
 #                         P H P M Y A D M I N                              #
 #--------------------------------------------------------------------------#
 #--------------------------------------------------------------------------#             
-    codeigniter4_phpmyadmin:
+    brighty_phpmyadmin:
         image: phpmyadmin/phpmyadmin:5.0.2
-        container_name: 'codeigniter4_phpmyadmin'
+        container_name: 'laravel_phpmyadmin'
         links:
           - brighty_mysql
         environment:
@@ -71,4 +73,4 @@ services:
         ports:
           - 81:80
         volumes:
-          - ./sessions:/sessions
+          - ./database/sessions:/sessions
