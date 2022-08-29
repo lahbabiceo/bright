@@ -9,7 +9,7 @@ version: "3"
 services:
 #--------------------------------------------------------------------------#
 #--------------------------------------------------------------------------#
-#                     C O D E I G N I T E R  v4.1.8                        #
+#                           W O R D P R E S S                              #
 #--------------------------------------------------------------------------#
 #--------------------------------------------------------------------------#
     brighty:
@@ -22,19 +22,21 @@ services:
         # volumes:
         #   - ./:/app    
   
-      image: docker.io/bitnami/laravel:9
+      image: docker.io/wordpress
       container_name: 'brighty'
       ports:
-        - '8000:8000'
+        - '8080:80'
         - 443:443
       environment:
-        - DB_HOST=brighty_mysql
-        - DB_PORT=3306
-        - DB_DATABASE=brighty
-        - DB_USERNAME=root
-        - DB_PASSWORD=BrightyPl
+        - WORDPRESS_DB_HOST=brighty_mysql
+        - WORDPRESS_DB_PORT=3306
+        - WORDPRESS_DB_NAME=brighty
+        - WORDPRESS_DB_USER=root
+        - WORDPRESS_DB_PASSWORD=BrightyP
+        - WORDPRESS_TABLE_PREFIX=wp
+        - WORDPRESS_DEBUG=1
       volumes:
-        - './api:/app'
+        - './brighty:/var/www/html'
       depends_on:
         - brighty_mysql
 
