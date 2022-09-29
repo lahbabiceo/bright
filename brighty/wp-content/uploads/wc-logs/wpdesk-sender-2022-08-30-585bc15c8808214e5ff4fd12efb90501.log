@@ -1,0 +1,2 @@
+2022-08-30T16:10:54+00:00 DEBUG Sender payload: {"click_action":"no","url":"http:\/\/localhost:8080","localhost":"no"}
+2022-08-30T16:10:57+00:00 DEBUG Sender response: {"headers":[],"body":"","response":{"code":false,"message":false},"cookies":[],"http_response":null}

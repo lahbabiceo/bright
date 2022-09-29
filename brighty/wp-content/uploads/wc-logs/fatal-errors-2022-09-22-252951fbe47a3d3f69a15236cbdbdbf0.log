@@ -1,0 +1,84 @@
+2022-09-22T15:38:32+00:00 CRITICAL Uncaught Error: Call to a member function add() on string in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php:53
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(309): brighty_validate_reg_form_fields(Object(WP_Error), '', '123')
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(1080): apply_filters('woocommerce_pro...', Object(WP_Error), '', '123', 'HEY@HEY.COM')
+#3 /var/www/html/wp-includes/class-wp-hook.php(307): WC_Form_Handler::process_registration('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-settings.php(620): do_action('wp_loaded')
+#7 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-h in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php on line 53
+
+2022-09-22T15:38:46+00:00 CRITICAL Uncaught Error: Call to a member function add() on string in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php:53
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(309): brighty_validate_reg_form_fields(Object(WP_Error), '', '123')
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(1080): apply_filters('woocommerce_pro...', Object(WP_Error), '', '123', 'HEY@HEY.COM')
+#3 /var/www/html/wp-includes/class-wp-hook.php(307): WC_Form_Handler::process_registration('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-settings.php(620): do_action('wp_loaded')
+#7 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-h in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php on line 53
+
+2022-09-22T15:39:28+00:00 CRITICAL Uncaught Error: Call to a member function add() on string in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php:53
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(309): brighty_validate_reg_form_fields(Object(WP_Error), '', '123')
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(1080): apply_filters('woocommerce_pro...', Object(WP_Error), '', '123', 'HEY@HEY.COM')
+#3 /var/www/html/wp-includes/class-wp-hook.php(307): WC_Form_Handler::process_registration('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-settings.php(620): do_action('wp_loaded')
+#7 /var/www/html/wp-config.php(134): require_once('/var/www/html/w...')
+#8 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#9 /var/www/html/wp-blog-h in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php on line 53
+
+2022-09-22T15:41:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function brighty_validate_reg_form_fields(), 3 passed in /var/www/html/wp-includes/class-wp-hook.php on line 309 and exactly 4 expected in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(309): brighty_validate_reg_form_fields(Object(WP_Error), '', '123')
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(1080): apply_filters('woocommerce_pro...', Object(WP_Error), '', '123', 'HEY@HEY.COM')
+#3 /var/www/html/wp-includes/class-wp-hook.php(307): WC_Form_Handler::process_registration('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-settings.php(620): do_action('wp_loaded')
+#7 /var/www/html/wp-config.php(134): re in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php on line 26
+
+2022-09-22T15:42:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function brighty_validate_reg_form_fields(), 3 passed in /var/www/html/wp-includes/class-wp-hook.php on line 309 and exactly 4 expected in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(309): brighty_validate_reg_form_fields(Object(WP_Error), '', '123')
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(1080): apply_filters('woocommerce_pro...', Object(WP_Error), '', '123', 'HEY@HEY.COM')
+#3 /var/www/html/wp-includes/class-wp-hook.php(307): WC_Form_Handler::process_registration('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-settings.php(620): do_action('wp_loaded')
+#7 /var/www/html/wp-config.php(134): re in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php on line 26
+
+2022-09-22T15:42:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function brighty_validate_reg_form_fields(), 3 passed in /var/www/html/wp-includes/class-wp-hook.php on line 309 and exactly 4 expected in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php:26
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(309): brighty_validate_reg_form_fields(Object(WP_Error), '', '123')
+#1 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-form-handler.php(1080): apply_filters('woocommerce_pro...', Object(WP_Error), '', '123', 'radiusfashion.o...')
+#3 /var/www/html/wp-includes/class-wp-hook.php(307): WC_Form_Handler::process_registration('')
+#4 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /var/www/html/wp-settings.php(620): do_action('wp_loaded')
+#7 /var/www/html/wp-config.php(1 in /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php on line 26
+
+2022-09-22T18:29:44+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_errors() in /var/www/html/wp-content/plugins/brighty-core/shortcodes/register-form.php:25
+Stack trace:
+#0 /var/www/html/wp-content/plugins/brighty-core/functions/registration-shortcode.php(15): include()
+#1 /var/www/html/wp-includes/shortcodes.php(356): brighty_user_registration_form('', '', 'brighty_registe...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/html/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(bright...', 'do_shortcode_ta...', '\n[brighty_regis...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(307): do_shortcode('\n[brighty_regis...')
+#5 /var/www/html/wp-includes/plugin.php(191): WP_Hook->apply_filters('\n[brighty_regis...', Array)
+#6 /var/www/html/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:paragra...')
+#7 /var/www/html/wp-content/plugins/brighty-core/templates/full-width-centered.php(43): the_content()
+#8 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/htm in /var/www/html/wp-content/plugins/brighty-core/shortcodes/register-form.php on line 25
+

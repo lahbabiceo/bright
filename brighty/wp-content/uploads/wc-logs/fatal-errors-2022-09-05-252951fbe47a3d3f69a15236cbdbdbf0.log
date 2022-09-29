@@ -1,0 +1,49 @@
+2022-09-05T13:34:07+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::wc_get_product_category_list() in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/list-orders.php:27
+Stack trace:
+#0 /var/www/html/wp-content/plugins/brighty-core/functions/do.php(40): include()
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): action_woocommerce_list_orders(true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/templates/myaccount/orders.php(22): do_action('woocommerce_bef...', true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3209): wc_get_template('myaccount/order...', Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(307): woocommerce_account_orders(1)
+#8 /var/www/html/wp-includes/class-wp-hook.ph in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/list-orders.php on line 27
+
+2022-09-05T13:34:13+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::wc_get_product_category_list() in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/list-orders.php:27
+Stack trace:
+#0 /var/www/html/wp-content/plugins/brighty-core/functions/do.php(40): include()
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): action_woocommerce_list_orders(true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/templates/myaccount/orders.php(22): do_action('woocommerce_bef...', true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3209): wc_get_template('myaccount/order...', Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(307): woocommerce_account_orders(1)
+#8 /var/www/html/wp-includes/class-wp-hook.ph in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/list-orders.php on line 27
+
+2022-09-05T13:34:35+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_the_ID() in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/list-orders.php:27
+Stack trace:
+#0 /var/www/html/wp-content/plugins/brighty-core/functions/do.php(40): include()
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): action_woocommerce_list_orders(true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/templates/myaccount/orders.php(22): do_action('woocommerce_bef...', true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3209): wc_get_template('myaccount/order...', Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(307): woocommerce_account_orders(1)
+#8 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->a in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/list-orders.php on line 27
+
+2022-09-05T16:48:13+00:00 CRITICAL Uncaught Error: Function name must be a string in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/list-orders.php:84
+Stack trace:
+#0 /var/www/html/wp-content/plugins/brighty-core/functions/do.php(40): include()
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): action_woocommerce_list_orders(true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/templates/myaccount/orders.php(22): do_action('woocommerce_bef...', true)
+#5 /var/www/html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/var/www/html/w...')
+#6 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3209): wc_get_template('myaccount/order...', Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(307): woocommerce_account_orders(1)
+#8 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/list-orders.php on line 84
+

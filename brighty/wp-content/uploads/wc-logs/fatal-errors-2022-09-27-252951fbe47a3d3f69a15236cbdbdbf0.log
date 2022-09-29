@@ -1,0 +1,30 @@
+2022-09-27T05:56:06+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/notifications-list.php on line 205
+
+2022-09-27T16:32:47+00:00 CRITICAL Uncaught Error: Call to a member function get_all() on null in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/security.php:35
+Stack trace:
+#0 /var/www/html/wp-content/plugins/brighty-core/functions/wc-endpoints.php(108): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): Brighty_WC_Endpoint->endpoint_content('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3158): do_action('woocommerce_acc...', '')
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): woocommerce_account_content('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/templates/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#9 /var/www/html/wp-c in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/security.php on line 35
+
+2022-09-27T16:33:51+00:00 CRITICAL Uncaught Error: Call to a member function get_all() on null in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/security.php:35
+Stack trace:
+#0 /var/www/html/wp-content/plugins/brighty-core/functions/wc-endpoints.php(108): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): Brighty_WC_Endpoint->endpoint_content('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3158): do_action('woocommerce_acc...', '')
+#5 /var/www/html/wp-includes/class-wp-hook.php(307): woocommerce_account_content('')
+#6 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#8 /var/www/html/wp-content/plugins/woocommerce/templates/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#9 /var/www/html/wp-c in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/security.php on line 35
+
+2022-09-27T18:04:32+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF) in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/security.php on line 74
+

@@ -1,0 +1,22 @@
+2022-09-24T14:56:06+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/security-menu.php on line 9
+
+2022-09-24T14:56:19+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/security-menu.php on line 9
+
+2022-09-24T16:44:39+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/notifications-list.php on line 4
+
+2022-09-24T16:44:57+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4096 bytes) in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/notifications-list.php on line 4
+
+2022-09-24T17:07:36+00:00 CRITICAL require(): Failed opening required '' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/brighty-core/functions/wc-endpoints.php on line 98
+
+2022-09-24T17:41:20+00:00 CRITICAL require(): Failed opening required '' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/brighty-core/functions/wc-endpoints.php on line 107
+
+2022-09-24T17:41:24+00:00 CRITICAL require(): Failed opening required '' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/brighty-core/functions/wc-endpoints.php on line 107
+
+2022-09-24T17:42:17+00:00 CRITICAL require(): Failed opening required '' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/brighty-core/functions/wc-endpoints.php on line 106
+
+2022-09-24T17:42:26+00:00 CRITICAL require(): Failed opening required '' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/brighty-core/functions/wc-endpoints.php on line 105
+
+2022-09-24T17:42:33+00:00 CRITICAL require(): Failed opening required '' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/plugins/brighty-core/functions/wc-endpoints.php on line 105
+
+2022-09-24T18:42:12+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/security.php on line 31
+

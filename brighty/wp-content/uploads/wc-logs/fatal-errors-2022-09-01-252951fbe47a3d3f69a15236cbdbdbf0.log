@@ -1,0 +1,12 @@
+2022-09-01T09:29:43+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/wp-content/plugins/brighty-core/templates/user-dashboard.php on line 1096
+
+2022-09-01T09:30:18+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/wp-content/plugins/brighty-core/templates/user-dashboard.php on line 1097
+
+2022-09-01T11:49:33+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /var/www/html/wp-content/plugins/brighty-core/templates/user-dashboard.php:274
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/plugins/brighty-core/templates/user-dashboard.php on line 274
+

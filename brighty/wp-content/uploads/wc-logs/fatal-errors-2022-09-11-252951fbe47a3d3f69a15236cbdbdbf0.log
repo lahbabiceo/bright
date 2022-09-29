@@ -1,0 +1,6 @@
+2022-09-11T07:19:38+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/login-register.php on line 203
+
+2022-09-11T07:20:25+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/login-register.php on line 194
+
+2022-09-11T07:20:37+00:00 CRITICAL syntax error, unexpected end of file in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/login-register.php on line 207
+

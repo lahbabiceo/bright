@@ -10,7 +10,7 @@
 
 <div align="center">
 
- ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) ![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)  ![Laravel](https://img.shields.io/badge/framework-Laravel5-orange)   ![BoxBilling Size](https://img.shields.io/github/repo-size/iqltechnologies/brighty.svg?style=popout) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iqltechnologies/brighty/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/iqltechnologies/brighty/?branch=main)     
+  ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) ![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)  ![Laravel](https://img.shields.io/badge/framework-Laravel5-orange)   ![BoxBilling Size](https://img.shields.io/github/repo-size/iqltechnologies/brighty.svg?style=popout) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iqltechnologies/brighty/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/iqltechnologies/brighty/?branch=main)     
 
 </div> 
 
@@ -123,3 +123,29 @@ Fork and Use docker compose in this repo. Database and Code is included together
 ![MIT License](https://img.shields.io/badge/license-MIT-blue)
 
 MIT License : Feel free to use it for as long as you want and in any manner you want.
+
+
+
+# Documentation
+
+
+ - This plugin registers a page template and uses it. The template is located in /templates
+ - The user dashboard page is located on /templates/user-dashboard.php 
+ - most functions code is located on /functions/do.php
+
+  **Registration Page**:
+    Create a page named register or anything.
+    When creating the page select template - "Brighty Full Width if you want to use full width". @/templates/full-width.php
+    Insert a shortcode on that page [brighty_register_form] @function/do.php : @/template/woocommerce/register.php 
+    the code for registration form is located on 
+
+
+
+
+  # TODO
+  - kirki plugin
+  - send email on account details update
+  - highlight field in registration form on error
+  - Use endpoint url function instead of hardcoding it for woocommerce
+  - Use endpoint urls in ajax requests on list notifications page 
+  - combile js functions in same file for manageability

@@ -1,0 +1,367 @@
+#wpadminbar {
+    direction: ltr;
+    color: #c3c4c7;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    line-height: 2.46153846;
+    height: 32px;
+    position: relative;
+    /* top: 0; */
+    left: 0px;
+    width: calc(100% - 285px);
+    min-width: 600px;
+    z-index: 99999;
+    background: #da242400;
+    margin-left: 275px;
+    margin-top: -20px;
+}
+#wpadminbar .ab-empty-item, #wpadminbar a.ab-item, #wpadminbar>#wp-toolbar span.ab-label, #wpadminbar>#wp-toolbar span.noticon {
+    color: #000000;
+}
+#wpadminbar #adminbarsearch:before, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before {
+    
+    color: rgb(31 41 55);
+}
+
+#wp-admin-bar-wp-logo{
+    display:none
+}
+
+.woocommerce-account .woocommerce-MyAccount-content{
+    width: 100% !important;
+}
+
+.nav-item.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads,
+.nav-item.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--orders,
+.nav-item.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--woo-wallet,
+.nav-item.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-account,
+.nav-item.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--edit-address,
+.nav-item.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--dashboard, 
+.nav-item.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--customer-logout{
+    display: none;
+}
+
+
+@media only screen and (max-width: 2500px){
+#mega-menu-wrap-user-dashboard-main-menu-logged-in #mega-menu-user-dashboard-main-menu-logged-in li.mega-menu-item.mega-current-menu-parent > ul.mega-sub-menu {
+ 
+ visibility: visible !important;
+ display: block !important;
+}
+}
+
+.woocommerce-page main .woocommerce{
+    max-width: unset !important;
+}
+
+.dashboard-cards .card h4{
+
+    margin-bottom:0px !important
+}
+
+.woocommerce-MyAccount-content > p,.woo-wallet-sidebar-heading{
+    display: none;
+}
+
+.woocommerce-account article.page h2 a,.woocommerce-page h2{
+    font-size: 1.25rem !important;
+    font-family: Inter,sans-serif;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #1f2937;
+}
+.dgwt-wcas-search-input{
+    min-width:350px
+}
+.woo-wallet-my-wallet-container .woo-wallet-sidebar{
+    padding-top:0px
+}
+
+h5{
+font-size: 1.25rem;
+}
+
+
+.woocommerce-MyAccount-content .woocommerce-Address{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 0.0625rem solid rgba(17, 24, 39, 0.125);
+    border-radius: 0.5rem;
+    position: relative;
+    padding:10px 20px;
+    box-shadow: -2px 2px 0px #ececec;
+ }
+    
+.woocommerce-MyAccount-content .woocommerce-Address-title a{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.woocommerce-Address-title h3:before {
+    content: "\f336";
+    font-family: 'dashicons';
+    /* padding-top: 40px; */
+    font-size: 30px;
+    vertical-align: middle;
+    margin: 0px 10px 0px -6px;
+}
+.woocommerce-Address-title h3{
+
+    font-size: 1.25rem;
+    margin-bottom:5px
+}
+.woocommerce-MyAccount-content .woocommerce-Address-title a:before {
+
+    content: "\f327";
+    font-family: 'dashicons';
+    vertical-align: middle;
+    margin: 0px 10px 0px -6px;
+}
+
+#billing_country{
+    height: 3.625rem;
+    padding-right: 2.5rem;
+}
+
+
+form.brighty-register-form{
+    max-width: 600px;
+}
+/* alert of client registration page (brighty_register_form shortcode) */
+.woocommerce-error::before {
+    content: "!";
+    padding-right: 4px;
+    padding-left: 4px;
+    display: inline;
+    float: left;
+    position: absolute;
+    margin-left: -10px;
+    font-size: 12px;
+    margin-top: 5px;
+    background: #d22c2c;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    border: 1px solid #ac3333;
+}
+
+.woocommerce-error > li{
+margin-left:20px
+}
+
+.woocommerce-address-fields{
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.account-settings-page-menu a.btn{
+    border-radius:0px; box-shadow:none
+}
+.account-settings-page-menu a.btn.active{
+    border-bottom:2px black solid
+}
+.page-title,.page-title a{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.address-card.no-edit.card .form-control:disabled,.address-card.no-edit.card .form-control[readonly],.address-card.no-edit .form-select:disabled,.profile-card.no-edit.card .form-control:disabled,.profile-card.no-edit.card .form-control[readonly],.profile-card.no-edit .form-select:disabled {
+    background-color: white;
+    opacity: 1;
+    border: none;
+    box-shadow: none;
+    padding-left: 0px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.profile-card.no-edit.card label,.address-card.no-edit.card label{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.profile-card .edit-profile,.profile-card.no-edit.card .close{  
+    display:none  !important
+}
+
+.address-card.no-edit .edit-profile,.profile-card.no-edit .edit-profile,.profile-card .close{ 
+    position:absolute;
+    right:25px;
+    display:inline !important
+} 
+.profile-card.no-edit h2,.address-card.no-edit h2{
+
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 20px;
+    box-shadow: 0px 1px 0px #e7e7e7;
+
+    font-weight: bold;
+}
+.profile-card.no-edit .save-btn{
+    display:none !important
+}
+.profile-card.no-edit{
+    padding:5px 10px
+}
+span.input-group-text,.profile-card.no-edit,.profile-card.no-edit input,.profile-card.no-edit select {   
+    background-color: transparent !important;
+box-shadow: none !important;
+border:none
+
+}
+
+/* Hide repeating items on woocommerce 'my-account/edit-account/' page: Repeating because we have added our ouwn form on thee same page */
+
+.woocommerce-edit-account label[for='account_first_name'],.woocommerce-edit-account #account_first_name,
+.woocommerce-edit-account label[for=account_last_name],.woocommerce-edit-account #account_last_name,
+.woocommerce-edit-account label[for='account_display_name'],.woocommerce-edit-account #account_display_name,
+.woocommerce-edit-account label[for='account_display_name'],.woocommerce-edit-account #account_display_name,
+.woocommerce-edit-account label[for='account_email'],.woocommerce-edit-account #account_email,
+.woocommerce-edit-account label[for='password_current'],.woocommerce-edit-account #password_current,
+.woocommerce-edit-account label[for='password_1'],.woocommerce-edit-account #password_1,
+.woocommerce-edit-account label[for='password_2'],.woocommerce-edit-account #password_2,
+.woocommerce-form-row span em,.woocommerce-edit-account .edit-account fieldset legend,.woocommerce-edit-account .edit-account .show-password-input
+{
+ display:none !important
+}
+.edit-account p{
+    margin:0px; 
+    padding:0px
+}
+
+.modal-header h2{
+    margin-bottom:0px !important
+}
+.brighty-avatar-upload-section{
+    padding-bottom:30px !important
+}
+.brighty-avatar-upload-section h3{
+    font-size: 1.2rem;
+    margin: 10px 20px;
+    border-bottom: 2px solid #e1e1e1;
+    padding: 10px 10px 15px 10px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 20px;
+    box-shadow: 0px 1px 0px #e7e7e7;
+    font-weight: bold;
+    font-size: 1.25rem !important;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+    color: #1f2937;
+}
+
+.brighty-avatar-upload-section .success{
+    background: green;
+    color: white;
+    line-height: 2;
+}
+
+
+.brighty-avatar-upload-section p{
+    margin:0px 
+}
+
+#wpua-images-existing{
+    display:none
+}
+
+
+.simba_tfa_verify_tfa_notice,.postbox{
+    color: #0a6f4d;
+    background-color: #cff1e6;
+    border-color: #b7ead9;
+    font-size: 14px;
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 0.0625rem solid transparent;
+    border-radius: 0.5rem;
+    padding-bottom:50px
+}
+
+.tfa_enable_radio:checked {
+        background-position: right center;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e");
+}
+
+.simbatfa_settings_save{
+    
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(17 24 39 / 8%);
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #374151;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0.0625rem solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #ffffff;
+    background-color: #1F2937;
+    border-color: #1F2937;
+}
+.inside p{
+
+    font-size: .8rem;
+}
+
+.simbaotp_qr_container img{
+    margin:0px; 
+    max-width: 125px !important;
+}
+
+.simba_tfa_personal_settings_notice.simba_tfa_intro_notice{
+    display: none;
+}
+
+.tfa_settings_form p{
+    font-size:1rem
+}
+
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+
+https://codepen.io/bootpen/pen/jbbaRa
+*******************************/
+
+.modal.right .modal-dialog{
+    margin-right: 0;
+    margin-top: 0px;
+    margin-bottom:0px; 
+}
+    
+/*Right*/
+.modal.right .modal-dialog {
+
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+         -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+            transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right .modal-content{
+    border-radius: 0px;
+
+    min-height:100vh;
+}
