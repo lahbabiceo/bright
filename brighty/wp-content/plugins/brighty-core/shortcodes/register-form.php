@@ -74,7 +74,19 @@ if ( ! defined( 'ABSPATH' ) ) {
                     <div class="clear"></div> 
 
 
-                    <div class=" form-group mb-4 form-floating">
+                    <div class=" form-group mb-4 ">
+                        <input onclick="jQuery('#company-field').toggleClass('hide')" type="checkbox" class="form-check-input" name="registering_company" id="registering_company" <?php if(!isset($_POST['billing_company'])||!isset($_POST['registering_company'])) {
+                            echo "checked";
+                        } ?> />
+
+                        <label for="registering_company"><?php _e( 'Registering for a company', 'woocommerce' ); ?>
+                            
+                        </label>
+                    </div> 
+
+
+                    <div class="clear"></div> 
+                    <div class=" form-group mb-4 form-floating" id="company-field">
                         <input type="text" class="input-text form-control" name="billing_company" id="billing_company" value="<?php echo isset($_POST['billing_company']) ? esc_attr($_POST['billing_company']) : $user->billing_first_name ?>" placeholder="<?php _e( 'Company Name', 'woocommerce' ); ?>" />
 
                         <label for="billing_company"><?php _e( 'Company Name', 'woocommerce' ); ?> </label>
@@ -114,7 +126,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                         <div class="col-6">
                             <div class="woocommerce-form-row  woocommerce-form-row--wide form-row form-group mb-4 form-floating">
                                 <input type="text" class="input-text form-control" name="billing_postcode" id="billing_postcode" value="<?php echo isset($_POST['billing_postcode']) ? esc_attr($_POST['billing_postcode']) : $user->billing_first_name ?>" placeholder="<?php _e( 'Postcode', 'woocommerce' ); ?> " />
-                                <label for="billing_postcode"><?php _e( 'Pincode', 'woocommerce' ); ?> </label>
+                                <label for="billing_postcode"><?php _e( 'Postcode', 'woocommerce' ); ?> </label>
                             </div> 
                         </div>
                         <div class="col-6">

@@ -120,9 +120,8 @@ Fork and Use docker compose in this repo. Database and Code is included together
 
 ## :green_book: License
 
-![MIT License](https://img.shields.io/badge/license-MIT-blue)
-
-MIT License : Feel free to use it for as long as you want and in any manner you want.
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>
+<img src="https://smartcopying.edu.au/wp-content/uploads/2020/03/image006-1.jpg">
 
 
 

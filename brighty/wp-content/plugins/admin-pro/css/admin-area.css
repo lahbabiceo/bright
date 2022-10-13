@@ -1149,3 +1149,43 @@ text-shadow: none;
     content: "\f349";
 }
 
+.post-type-inspire_invoice #major-publishing-actions {
+    position: relative; 
+    width: 100%;
+    left:0px 
+}
+
+.post-type-inspire_invoice .form-wrap label {
+    padding:0px; 
+    border:none; 
+}
+
+.form-wrap.inspire-panel .options-group{
+    display:flex
+}
+
+
+.rwmb-column{
+    margin-right:1% !important
+}
+.rwmb-column-1 {
+    width: 8% !important;
+}
+.rwmb-column-2 {
+    width: 15% !important;
+}
+.rwmb-column-3 {
+    width: 24% !important;
+}
+
+.rwmb-group-collapsible > .rwmb-input > .rwmb-group-clone {
+    background: #fffef1;
+}
+
+
+
+#adminmenu li.wp-menu-separator {
+    margin: 5px 13px;
+    border-bottom: 1px solid #364254;
+    width: 100%;
+}

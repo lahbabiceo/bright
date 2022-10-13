@@ -11,6 +11,360 @@ function brighty_ajaxurl() {
          </script>';
 
 }
+//helper function: get page admin id - returns single id of first page admin @issue if there are multiple admins then 
+
+// remove user from client
+
+
+add_action( 'wp_ajax_brighty_remove_user_from_client', 'brighty_remove_user_from_client' );
+
+function brighty_remove_user_from_client(){
+
+  $userID = $_GET['user'];
+  $clientID = $_GET['crn'];
+
+  // echo "$clientID,'access',$userID";
+
+  if(is_user_client_admin($clientID)){
+
+    // echo "it is admin";
+
+    delete_post_meta($clientID,'access',$userID);
+    delete_post_meta($clientID,'contacts',$userID);
+    echo "The user has been removed";
+
+  }
+
+  exit();
+
+}
+
+//helper function: remove access request
+
+function remove_client_access_request($clientID,$userID){
+  
+    // remove from client meta
+
+    $requests = get_post_meta($clientID,'requests');
+    foreach($requests as $request){
+      delete_post_meta($clientID,'requests');
+      if($request['user']!=$userID){
+        add_post_meta($clientID,'requests',$request);
+        return true;
+      }
+    }
+    
+    //now remove from  user's own meta pending list. 
+
+    $originals = get_user_meta($userID,'sent_requests');
+    delete_user_meta($userID,'sent_requests');
+    foreach($originals as $original ){
+      if($original['user'] != $userID){
+        add_user_meta($userID,'sent_requests',$arr);
+      }
+    }
+
+    return false;
+
+}
+
+//helper function: boolean
+
+
+function is_user_client_admin($clientID, $userID = null){
+  
+  if(!isset($userID)){
+    $userID = get_current_user_id();
+  }
+
+  $args = array(
+    'posts_per_page'   => 1,
+    'p' => $clientID,
+    'post_type' => 'client',
+    'meta_query' => array(
+        array(
+            'key'     => 'contacts', //admin contacts
+            'value'   => get_current_user_ID()
+        ),
+    ),
+  );
+
+  $clients = get_posts( $args );
+
+  if(empty($clients)){
+    return false;
+  }
+
+  return true; 
+
+}
+
+
+//helper function: boolean
+
+
+function user_has_client_access($clientID, $feature, $userID = null){
+
+      if(!isset($userID)){
+        $userID = get_current_user_id();
+      }
+
+      // if the user is admin of the page this function will return true on all features
+
+      if(is_user_client_admin($clientID)){
+          return true;
+      }
+
+      $args = array(
+        'posts_per_page'   => 1,
+        'p' => $clientID,
+        'post_type' => 'client',
+        'meta_query' => array(
+            array(
+                'key'     => 'access', //admin contacts
+                'value'   => $userID
+            ),
+        ),
+      );
+    
+      $clients = get_posts( $args );
+
+      if(!empty($clients)){
+        $permisssions_arr = get_post_meta($clients[0]->ID,"permissions",true); // true because meta box stores all entries as single array collection
+        
+        // print_r($permisssions_arr);
+        foreach($permisssions_arr as $permission){
+          if($permission['user'] == $userID ){
+
+            //todo verify working: done 12/10/22
+            if(in_array($feature,$permission['allowed_permissions'])){
+              
+              return true;
+            }
+          }
+        }
+
+        exit();
+      }
+
+      return false;
+
+
+
+}
+
+// allow or add access to client 
+
+add_action( 'wp_ajax_brighty_add_access', 'brighty_add_access' );
+
+function brighty_add_access(){
+
+  
+
+  // print_r($_POST);
+  //check whether email of the user which has been posted exists
+  if($_POST['email'] && $user_to_add = get_user_by("email",$_POST['email'])){
+    
+
+    echo "first pass";
+
+    $new_permissions = Array(
+          "user" => $user_to_add->ID,
+          "allowed_permissions" => $_POST['permissions']
+    );
+
+    if(is_user_client_admin($_POST['crn'])){
+
+
+      if($_POST['make_admin']){
+        // if making admin disregard granular permissions
+        add_post_meta($_POST['crn'],"contacts", $user_to_add->ID); // true because meta box stores all entries as single array collection
+        remove_client_access_request($_POST['crn'],$user_to_add->ID);
+        echo "Admin Permission has been granted";
+        exit();
+      }
+
+    echo "second pass";
+
+      $current_permisssions_arr = get_post_meta($_POST['crn'],"permissions",true); // true because meta box stores all entries as single array collection
+      $current_permisssions_arr[] = $new_permissions;
+
+      // delete current permission list
+      delete_post_meta($_POST['crn'],"permissions");
+
+      add_post_meta($_POST['crn'],"permissions",$current_permisssions_arr);
+      $current_permisssions_arr = get_post_meta($_POST['crn'],"permissions",true); // true because meta box stores all entries as single array collection
+    
+    
+      // now add to access list
+
+      add_post_meta($_POST['crn'],"access", $user_to_add->ID); // true because meta box stores all entries as single array collection
+
+      // print_r($current_permisssions_arr);
+      remove_client_access_request($_POST['crn'],$user_to_add->ID);
+      echo "Permission has been granted.";
+
+      exit();
+
+        return true;
+        
+    }
+    
+  }
+
+
+  echo "Permission could not be granted. You may have authorization issue";
+
+  exit();
+
+}
+
+// deny access request
+
+
+add_action( 'wp_ajax_brighty_deny_access_request', 'brighty_deny_access_request' );
+
+function brighty_deny_access_request(){
+
+
+  //get clients under admin access of current user
+  $args = array(
+    'posts_per_page'   => -1,
+    'p' => $_GET['crn'],
+    'post_type' => 'client',
+    'meta_query' => array(
+        array(
+            'key'     => 'contacts',
+            'value'   => get_current_user_ID()
+        ),
+    ),
+  );
+
+  $clients = get_posts( $args );
+
+  if($clients){
+   
+      $arr = array (
+        "user" => $_GET['id'],
+        "requested_on" =>  urldecode($_GET['requested_on']),
+        "crn" => $_GET['crn'],
+      );
+      //TODO log and notify on email
+      
+      //get all existing pending requests
+      $originals = get_post_meta($_GET['crn'],'requests');
+
+      //delete all requests and then copy them back except the one being deleted
+      // this is overcomplicated due to simple array matching delete is not working in wp
+
+      delete_post_meta($_GET['crn'],'requests');
+
+      foreach($originals as $original ){
+        if($original != $arr){
+          add_post_meta($_GET['crn'],'requests',$arr);
+        }
+      }
+
+      //now remove from  user's own pending list. 
+
+
+    $originals = get_user_meta($_GET['id'],'sent_requests');
+
+    delete_user_meta($_GET['id'],'sent_requests');
+
+    foreach($originals as $original ){
+      if($original != $arr){
+        add_user_meta($_GET['id'],'sent_requests',$arr);
+      }
+    }
+
+
+    
+  }
+
+
+  exit();
+}
+// Leave a company
+
+
+add_action( 'wp_ajax_brighty_leave_company', 'brighty_leave_company' );
+
+function brighty_leave_company(){
+
+  //TODO log and notify on email
+
+  //   //add to pending request for user
+  delete_post_meta($_GET['crn'],'access',get_current_user_id());
+
+  //   //add to pending request for user
+  delete_post_meta($_GET['crn'],'contacts',get_current_user_id());
+
+  exit();
+}
+
+
+
+//cancel request for access : security->access
+
+
+add_action( 'wp_ajax_brighty_cancel_access_request', 'brighty_cancel_access_request' );
+
+function brighty_cancel_access_request(){
+
+
+  //TODO log and notify on email
+
+  $current_access_requests = get_user_meta(get_current_user_id(),'sent_requests');
+  
+
+  $permission_request = array(
+    "user" => get_current_user_ID(),
+    "requested_on" => $_GET['date'],
+    "crn" => sanitize_text_field($_GET['crn'])
+
+  );
+
+
+  delete_user_meta(get_current_user_id(),'sent_requests',$permission_request);
+
+  //remove access request from page
+  delete_post_meta($_GET['crn'], 'requests', $permission_request);
+   
+
+  exit();
+}
+
+
+
+
+
+//make a request for access : security->access
+
+
+add_action( 'wp_ajax_brighty_request_access', 'brighty_request_access' );
+
+function brighty_request_access(){
+
+  $permission_request = array(
+    "user" => get_current_user_ID(),
+    "requested_on" => date(get_option( 'date_format' )),
+    "crn" => sanitize_text_field($_GET['crn'])
+  );
+
+  print_r($permission_request);
+
+
+  // delete_post_meta($_GET['crn'], 'requests');
+  add_post_meta($_GET['crn'], 'requests', $permission_request);
+  //   //add to pending request for user
+  add_user_meta(get_current_user_id(),'sent_requests',$permission_request);
+
+  exit();
+}
+
+
+
 
 // view invoice endpoint
 

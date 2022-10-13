@@ -125,6 +125,8 @@ $notifications_list_endpoint = new Brighty_WC_Endpoint("notifications-list","Not
 $documents_endpoint = new Brighty_WC_Endpoint("documents","Documents",BRIGHTY_CORE_PLUGIN_DIR .'/templates/woocommerce/documents.php');
 $security_endpoint = new Brighty_WC_Endpoint("security","Account Security",BRIGHTY_CORE_PLUGIN_DIR .'/templates/woocommerce/security.php');
 $profile_endpoint = new Brighty_WC_Endpoint("profile","Profile",BRIGHTY_CORE_PLUGIN_DIR .'/templates/woocommerce/edit-account.php');
+$access_endpoint = new Brighty_WC_Endpoint("access","Access",BRIGHTY_CORE_PLUGIN_DIR .'/templates/woocommerce/access.php');
+$access_endpoint = new Brighty_WC_Endpoint("client","Client Profile",BRIGHTY_CORE_PLUGIN_DIR .'/templates/woocommerce/client.php');
 
 // Flush rewrite rules on plugin activation.
 register_activation_hook( __FILE__, array( 'Brighty_WC_Endpoint', 'install' ) );

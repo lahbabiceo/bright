@@ -213,12 +213,13 @@ margin-left:20px
 .profile-card.no-edit{
     padding:5px 10px
 }
+/* 
 span.input-group-text,.profile-card.no-edit,.profile-card.no-edit input,.profile-card.no-edit select {   
     background-color: transparent !important;
 box-shadow: none !important;
 border:none
 
-}
+} */
 
 /* Hide repeating items on woocommerce 'my-account/edit-account/' page: Repeating because we have added our ouwn form on thee same page */
 
@@ -364,4 +365,8 @@ https://codepen.io/bootpen/pen/jbbaRa
     border-radius: 0px;
 
     min-height:100vh;
+}
+
+.hide{
+    display:none !important
 }

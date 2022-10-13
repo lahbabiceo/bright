@@ -1,0 +1,22 @@
+2022-10-12T11:05:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function user_has_client_access(), 2 passed in /var/www/html/wp-content/plugins/brighty-core/functions/ajax-endpoints.php on line 98 and exactly 3 expected in /var/www/html/wp-content/plugins/brighty-core/functions/ajax-endpoints.php:46
+Stack trace:
+#0 /var/www/html/wp-content/plugins/brighty-core/functions/ajax-endpoints.php(98): user_has_client_access(1, 'invoices')
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): brighty_add_access_request('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_brighty...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/brighty-core/functions/ajax-endpoints.php on line 46
+
+2022-10-12T11:06:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function user_has_client_access(), 2 passed in /var/www/html/wp-content/plugins/brighty-core/functions/ajax-endpoints.php on line 98 and exactly 3 expected in /var/www/html/wp-content/plugins/brighty-core/functions/ajax-endpoints.php:46
+Stack trace:
+#0 /var/www/html/wp-content/plugins/brighty-core/functions/ajax-endpoints.php(98): user_has_client_access(772, 'invoices')
+#1 /var/www/html/wp-includes/class-wp-hook.php(307): brighty_add_access_request('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 /var/www/html/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_brighty...')
+#5 {main}
+  thrown in /var/www/html/wp-content/plugins/brighty-core/functions/ajax-endpoints.php on line 46
+
+2022-10-12T19:32:13+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /var/www/html/wp-content/plugins/brighty-core/templates/woocommerce/client.php on line 322
+
