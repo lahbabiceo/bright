@@ -36,7 +36,7 @@ This app is made up of four different and independent parts. These parts are ind
 
 ## :date: Release Date for V1.0 (Tentative)
 
-We are targeting to release it by 13 September 2022.
+We are targeting to release it by 1 December 2022.
 
 ## Status: Not Usable. Just Started. We are in early development/ideation stage. 
 
@@ -84,8 +84,9 @@ Fork and Use docker compose in this repo. Database and Code is included together
 
 ## Development Stacks:
 
-- Laravel
+- WordPress
 - MySQL
+- Bootstrap
 - VueJs
 
 # Requirements
@@ -93,7 +94,7 @@ Fork and Use docker compose in this repo. Database and Code is included together
     Client Area and Admin Area have no special requirement as they are static HTML 
 
   ## Backend (API)
-    It is built on laravel; PHP version 7.3 or newer with following extensions intalled: *intl*, *mbstring* php-json, php-mysqlnd, php-xml. A database is also required.
+    It is built on WordPress; PHP version 7.3 or newer with following extensions intalled: *intl*, *mbstring* php-json, php-mysqlnd, php-xml. A database is also required.
 
 # Installation Instruction
 
