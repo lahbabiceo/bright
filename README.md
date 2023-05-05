@@ -10,9 +10,9 @@
 
 <div align="center">
 
-  ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) ![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)  ![Laravel](https://img.shields.io/badge/framework-Laravel5-orange)   ![BoxBilling Size](https://img.shields.io/github/repo-size/iqltechnologies/brighty.svg?style=popout) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iqltechnologies/brighty/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/iqltechnologies/brighty/?branch=main)     
-
-</div> 
+  ![PULL REQUEST](https://img.shields.io/badge/contributions-welcome-green)  ![status](https://img.shields.io/badge/Status-Not%20Usable-red)   ![PULL REQUEST](https://img.shields.io/badge/license-MIT-blue) ![PHP Version Require](http://poser.pugx.org/phpunit/phpunit/require/php)  ![Laravel](https://img.shields.io/badge/framework-WordPress-blue)   ![BoxBilling Size](https://img.shields.io/github/repo-size/iqltechnologies/brighty.svg?style=popout) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/iqltechnologies/brighty/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/iqltechnologies/brighty/?branch=main)     
+ 
+</div>
 
 ## Every one is fed up of paid web hosting automation software!
 
@@ -20,23 +20,19 @@ So What do we do? The answer is to create something together. In our experience,
 
 Not Limited to Hosting, it can be used for any kind of automated billing and provisioning business. 
 
-## Architecture: Keeping it simple
+## Architecture: Keeping it simple with WordPress and WooCommerce
 
-This app is made up of four different and independent parts. These parts are independednt of each other and each can work on a separate hosting accounts/server or on same hosting account.
+This app is made up of four different and independent parts. These parts are envisioned to be built independednt of each other and each should work on a separate hosting accounts/server or on same hosting account. To achieve this, all necessary integrations are built-in.
 
-  - **Website** : This is where users will be able to purchase your products such as domain name, website, packages, hosting etc;  ![BUILT WITH](https://img.shields.io/badge/built-with-green) HTML, JS and BootPolish(a simple vuejs addon)
-
-  - **Client Area**: This is where your customers will be able to login and manage their accounts;  ![BUILT WITH](https://img.shields.io/badge/built-with-green) vuejs
-
-
-  - **Backend / API**: This is the API used by Website, Admin Area, and Client Area to fetch and store data; ![BUILT WITH](https://img.shields.io/badge/built-with-green) WordPress (currently), Laravel(future)
-
-  - **Admin Area** : used to manage and control your products, orders, users, servers, domains etc.; ![BUILT WITH](https://img.shields.io/badge/built-with-green) WordPress, Laravel(future)
+  - **Website** : This is where users will be able to purchase your products such as domain name, website, packages, hosting etc; (WordPress Theme and Static HTML Site integration Code) 
+  - **Client Area**: This is where your customers will be able to login and manage their accounts, view invoices, domain names, hosting and login to control panels etc.;  (Woocommerce My Account Area)
+  - **Backend / API**: This is the API used by Website, Admin Area, and Client Area to fetch and store data; (WordPress REST API)
+  - **Admin Area** : used to manage and control your products, orders, users, servers, domains etc.; (WordPress Dashboard)
 
 
 ## :date: Release Date for V1.0 (Tentative)
 
-We are targeting to release it by 1 December 2022.
+We are targeting to release it by 1 June 2023.
 
 ## Status: Not Usable. Just Started. We are in early development/ideation stage. 
 
@@ -87,7 +83,6 @@ Fork and Use docker compose in this repo. Database and Code is included together
 - WordPress
 - MySQL
 - Bootstrap
-- VueJs
 
 # Requirements
   ## Client Area and Admin Area

@@ -1,0 +1,25 @@
+{
+  "name": "awesome-support",
+  "version": "6.1.1",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-autoprefixer": "^0.4.2",
+    "grunt-combine-mq": "^0.6.0",
+    "grunt-composer": "^0.2.0",
+    "grunt-concat-css": "^0.3.2",
+    "grunt-contrib-compress": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-jshint": "^3.0.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-exec": "^0.4.6",
+    "grunt-pot": "0.3.0",
+    "grunt-potomo": "^0.1.1",
+    "grunt-version": "^1.0.0",
+    "grunt-wp-i18n": "^1.0.3",
+    "load-grunt-tasks": "^5.1.0"
+  }
+}

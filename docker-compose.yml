@@ -37,6 +37,8 @@ services:
         - WORDPRESS_DEBUG=1
       volumes:
         - './brighty:/var/www/html'
+        - './themes:/var/www/html/wp-content/themes'
+        - './plugins:/var/www/html/wp-content/plugins'
       depends_on:
         - brighty_mysql
 
