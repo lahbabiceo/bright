@@ -1,1 +1,5 @@
-#ignore database folder
+#ignore irrelevant plugins
+
+plugins/*
+#keep brighty-core plugins
+!plugins/brighty-core

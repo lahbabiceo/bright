@@ -13,15 +13,7 @@ services:
 #--------------------------------------------------------------------------#
 #--------------------------------------------------------------------------#
     brighty:
-        # image: docker.io/bitnami/laravel:9 
-        # ports:
-        #   - 8000:8000
-        #   - 443:443
-        # links:
-        #   - brighty_mysql
-        # volumes:
-        #   - ./:/app    
-  
+
       image: docker.io/wordpress
       container_name: 'brighty'
       ports:
@@ -36,7 +28,7 @@ services:
         - WORDPRESS_TABLE_PREFIX=wp
         - WORDPRESS_DEBUG=1
       volumes:
-        - './brighty:/var/www/html'
+        - './wp:/var/www/html'
         - './themes:/var/www/html/wp-content/themes'
         - './plugins:/var/www/html/wp-content/plugins'
       depends_on:
